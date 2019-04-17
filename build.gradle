@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.binarysushi'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.konghq:unirest-java:2.1.01"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.0.1"
+    testCompile "junit:junit:4.12"
+}
